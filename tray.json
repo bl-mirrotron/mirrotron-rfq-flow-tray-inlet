@@ -2,7 +2,7 @@
   "type": "rfq-flow",
   "name": "inlet",
   "arcPeriod": 60000,
-  "timeStamp": 1649926850069,
+  "timeStamp": 1649938532983,
   "interval": {
     "action": "setting",
     "type": "scalar",
@@ -26,7 +26,7 @@
   "watchdog": {
     "action": "reading",
     "type": "scalar",
-    "value": 6760,
+    "value": 7928,
     "unit": "unit",
     "alarm": {
       "value": 0,
@@ -67,14 +67,14 @@
     "action": "reading",
     "type": "scalar",
     "value": 2.4,
-    "unit": "unit",
+    "unit": "l/min",
     "alarm": {
       "value": 0,
       "limits": {
-        "lolo": -1,
-        "low": -1,
-        "high": 1024,
-        "hihi": 1024
+        "lolo": 1.5,
+        "low": 1.6,
+        "high": 3,
+        "hihi": 3.1
       },
       "notify": {
         "name": "",
@@ -87,14 +87,14 @@
     "action": "reading",
     "type": "scalar",
     "value": 20,
-    "unit": "unit",
+    "unit": "l/min",
     "alarm": {
-      "value": 0,
+      "value": 1,
       "limits": {
-        "lolo": -1,
-        "low": -1,
-        "high": 1024,
-        "hihi": 1024
+        "lolo": 15,
+        "low": 18,
+        "high": 22,
+        "hihi": 25
       },
       "notify": {
         "name": "",
@@ -104,17 +104,17 @@
     }
   },
   "bottom": {
-    "action": "bottom",
+    "action": "reading",
     "type": "scalar",
     "value": 24,
-    "unit": "unit",
+    "unit": "l/min",
     "alarm": {
-      "value": 0,
+      "value": 2,
       "limits": {
-        "lolo": -1,
-        "low": -1,
-        "high": 1024,
-        "hihi": 1024
+        "lolo": 15,
+        "low": 18,
+        "high": 22,
+        "hihi": 25
       },
       "notify": {
         "name": "",
@@ -127,14 +127,14 @@
     "action": "reading",
     "type": "scalar",
     "value": 20.4,
-    "unit": "unit",
+    "unit": "l/min",
     "alarm": {
       "value": 0,
       "limits": {
-        "lolo": -1,
-        "low": -1,
-        "high": 1024,
-        "hihi": 1024
+        "lolo": 15,
+        "low": 16,
+        "high": 24,
+        "hihi": 25
       },
       "notify": {
         "name": "",
@@ -147,14 +147,14 @@
     "action": "reading",
     "type": "scalar",
     "value": 20.9,
-    "unit": "unit",
+    "unit": "l/min",
     "alarm": {
       "value": 0,
       "limits": {
-        "lolo": -1,
-        "low": -1,
-        "high": 1024,
-        "hihi": 1024
+        "lolo": 15,
+        "low": 16,
+        "high": 24,
+        "hihi": 25
       },
       "notify": {
         "name": "",
@@ -167,14 +167,14 @@
     "action": "reading",
     "type": "scalar",
     "value": 88.6,
-    "unit": "unit",
+    "unit": "l/min",
     "alarm": {
       "value": 0,
       "limits": {
-        "lolo": -1,
-        "low": -1,
-        "high": 1024,
-        "hihi": 1024
+        "lolo": 75,
+        "low": 76,
+        "high": 94,
+        "hihi": 95
       },
       "notify": {
         "name": "",
