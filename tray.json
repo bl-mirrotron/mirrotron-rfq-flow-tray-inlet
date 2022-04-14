@@ -2,7 +2,7 @@
   "type": "rfq-flow",
   "name": "inlet",
   "arcPeriod": 60000,
-  "timeStamp": 1649926627135,
+  "timeStamp": 1649926850069,
   "interval": {
     "action": "setting",
     "type": "scalar",
@@ -26,7 +26,7 @@
   "watchdog": {
     "action": "reading",
     "type": "scalar",
-    "value": 6738,
+    "value": 6760,
     "unit": "unit",
     "alarm": {
       "value": 0,
