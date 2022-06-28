@@ -2,7 +2,7 @@
   "type": "rfq-flow",
   "name": "inlet",
   "arcPeriod": 60000,
-  "timeStamp": 1649938532983,
+  "timeStamp": 1656404272603,
   "interval": {
     "action": "setting",
     "type": "scalar",
@@ -26,7 +26,7 @@
   "watchdog": {
     "action": "reading",
     "type": "scalar",
-    "value": 7928,
+    "value": 27124,
     "unit": "unit",
     "alarm": {
       "value": 0,
@@ -46,7 +46,7 @@
   "rate": {
     "action": "reading",
     "type": "scalar",
-    "value": 8088,
+    "value": 8106,
     "unit": "Hz",
     "alarm": {
       "value": 0,
@@ -66,10 +66,10 @@
   "coupler": {
     "action": "reading",
     "type": "scalar",
-    "value": 2.4,
+    "value": 0,
     "unit": "l/min",
     "alarm": {
-      "value": 0,
+      "value": 3,
       "limits": {
         "lolo": 1.5,
         "low": 1.6,
@@ -86,10 +86,10 @@
   "right": {
     "action": "reading",
     "type": "scalar",
-    "value": 20,
+    "value": 0,
     "unit": "l/min",
     "alarm": {
-      "value": 1,
+      "value": 3,
       "limits": {
         "lolo": 15,
         "low": 18,
@@ -106,15 +106,15 @@
   "bottom": {
     "action": "reading",
     "type": "scalar",
-    "value": 24,
+    "value": 0,
     "unit": "l/min",
     "alarm": {
-      "value": 2,
+      "value": 3,
       "limits": {
         "lolo": 15,
         "low": 18,
-        "high": 22,
-        "hihi": 25
+        "high": 26,
+        "hihi": 27
       },
       "notify": {
         "name": "",
@@ -126,10 +126,10 @@
   "left": {
     "action": "reading",
     "type": "scalar",
-    "value": 20.4,
+    "value": 0,
     "unit": "l/min",
     "alarm": {
-      "value": 0,
+      "value": 3,
       "limits": {
         "lolo": 15,
         "low": 16,
@@ -146,10 +146,10 @@
   "top": {
     "action": "reading",
     "type": "scalar",
-    "value": 20.9,
+    "value": 0,
     "unit": "l/min",
     "alarm": {
-      "value": 0,
+      "value": 3,
       "limits": {
         "lolo": 15,
         "low": 16,
@@ -166,15 +166,35 @@
   "supply": {
     "action": "reading",
     "type": "scalar",
-    "value": 88.6,
+    "value": 0.4,
     "unit": "l/min",
     "alarm": {
-      "value": 0,
+      "value": 3,
       "limits": {
         "lolo": 75,
         "low": 76,
         "high": 94,
         "hihi": 95
+      },
+      "notify": {
+        "name": "",
+        "number": "",
+        "time": 0
+      }
+    }
+  },
+  "permit": {
+    "action": "reading",
+    "type": "scalar",
+    "value": 0,
+    "unit": "",
+    "alarm": {
+      "value": 3,
+      "limits": {
+        "lolo": 0,
+        "low": 0,
+        "high": 2,
+        "hihi": 2
       },
       "notify": {
         "name": "",
